@@ -1,0 +1,25 @@
+.component-display{
+    background-color: floralwhite;
+    min-height: 20%;
+    margin: 5px 4px 0px 4px;
+    border-radius: 10px;
+    border: solid black 1px;
+    position: relative;
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 52px;
+    color: dimgray;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    animation: blink 5s steps(10) infinite;
+}
+
+@keyframes blink{
+    0% { visibility: hidden;}
+    100% { visibility: visible;}
+}

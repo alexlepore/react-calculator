@@ -1,0 +1,12 @@
+.component-buttons-display{
+    background-color: slategray;
+    min-height: 75%;
+    margin: 7px 4px 0px 4px;
+    border-radius: 10px;
+    border: solid black 1px;
+    overflow: hidden;
+}
+
+.component-buttons-display > div{
+    display: flex;
+}

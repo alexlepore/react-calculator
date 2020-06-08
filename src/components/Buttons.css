@@ -1,0 +1,11 @@
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 50px;
+    flex: auto;
+}
+
+button:last-child{
+    background-color: teal;
+}
