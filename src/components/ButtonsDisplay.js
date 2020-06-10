@@ -10,7 +10,7 @@ export default class ButtonsDisplay extends React.Component{
                     <Buttons name="AC"></Buttons>
                     <Buttons name="+/-"></Buttons>
                     <Buttons name="%"></Buttons>
-                    <Buttons className="blue-button" name="&divide;"></Buttons>
+                    <Buttons name="&divide;"></Buttons>
                 </div>
                 <div>
                     <Buttons name="7"></Buttons>
